@@ -1,0 +1,23 @@
+# Secrets — NEVER commit
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.mcp.json
+
+# Agent working state / memory (may contain system-specific detail)
+memory/
+*.local.md
+
+# Python / tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
